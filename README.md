@@ -149,7 +149,7 @@ streamlit run streamlit_app/dashboard.py
 
 ---
 
-## 🕒 Automation
+## Automation
 
 The project includes a scheduler script designed for automated ingestion.
 
@@ -160,7 +160,7 @@ In production, this pipeline can be triggered using:
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - API-based data ingestion
 - ETL pipeline design
@@ -171,11 +171,12 @@ In production, this pipeline can be triggered using:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Elizabeth Tom**  
 Master of Computer Science – University of Wollongong  
 Data Engineering & Analytics
+
 
 
 

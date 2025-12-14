@@ -3,7 +3,16 @@
 An end-to-end **data engineering + analytics** project that ingests YouTube trending video data via API, stores historical snapshots in MongoDB, and visualizes insights through an interactive Streamlit dashboard.
 
 ---
+##  Dashboard Screenshots
 
+### Overview & KPIs
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### Top Trending Videos
+![Top Videos](screenshots/top_videos.png)
+
+### Filters & Insights
+![Filters](screenshots/filters.png)
 ## Project Overview
 
 The **YouTube Trending Tracker** collects trending video data from multiple countries, processes and stores it in a database, and surfaces insights such as:
@@ -176,6 +185,7 @@ In production, this pipeline can be triggered using:
 **Elizabeth Tom**  
 Master of Computer Science – University of Wollongong  
 Data Engineering & Analytics
+
 
 
 

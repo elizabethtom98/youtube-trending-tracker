@@ -6,13 +6,13 @@ An end-to-end **data engineering + analytics** project that ingests YouTube tren
 ##  Dashboard Screenshots
 
 ### KPIs and filters
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshots/filter_kpi.png)
 
 ### Top Trending Videos
-![Top Videos](screenshots/'filter and kpi.png')
+![Top Videos](screenshots/table.png)
 
-### Filters & Insights
-![Filters](screenshots/filters.png)
+### Charts
+![Filters](screenshots/charts.png)
 ## Project Overview
 
 The **YouTube Trending Tracker** collects trending video data from multiple countries, processes and stores it in a database, and surfaces insights such as:
@@ -185,6 +185,7 @@ In production, this pipeline can be triggered using:
 **Elizabeth Tom**  
 Master of Computer Science – University of Wollongong  
 Data Engineering & Analytics
+
 
 
 

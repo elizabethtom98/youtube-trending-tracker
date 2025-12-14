@@ -5,11 +5,11 @@ An end-to-end **data engineering + analytics** project that ingests YouTube tren
 ---
 ##  Dashboard Screenshots
 
-### Overview & KPIs
+### KPIs and filters
 ![Dashboard Overview](screenshots/dashboard_overview.png)
 
 ### Top Trending Videos
-![Top Videos](screenshots/top_videos.png)
+![Top Videos](screenshots/'filter and kpi.png')
 
 ### Filters & Insights
 ![Filters](screenshots/filters.png)
@@ -185,6 +185,7 @@ In production, this pipeline can be triggered using:
 **Elizabeth Tom**  
 Master of Computer Science – University of Wollongong  
 Data Engineering & Analytics
+
 
 
 

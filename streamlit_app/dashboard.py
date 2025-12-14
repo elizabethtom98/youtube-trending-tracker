@@ -105,12 +105,14 @@ CATEGORY_MAP = {
 }
 df["category"] = df["categoryId"].astype(str).map(CATEGORY_MAP).fillna("Other")
 
-# ---------------- Channel Filter ----------------
-channels = sorted(df["channelTitle"].unique())
-selected_channel = st.sidebar.selectbox("Filter by Channel (optional)", ["All"] + channels)
 
-if selected_channel != "All":
-    df = df[df["channelTitle"] == selected_channel]
+# ---------------- Category Filter ----------------
+categories = sorted(df["category"].unique())
+selected_category = st.sidebar.selectbox("Filter by Category", ["All"] + categories)
+
+if selected_category != "All":
+    df = df[df["category"] == selected_category]
+
 
 # ---------------- KPIs ----------------
 total_views = int(df["views"].sum())

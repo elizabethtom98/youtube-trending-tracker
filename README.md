@@ -94,11 +94,11 @@ In a production setup, it can be scheduled using:
 
 ## Run Locally
 
-### 1) Clone
+###  Clone
 ```
 git clone https://github.com/elizabethtom98/youtube-trending-tracker.git
 cd youtube-trending-tracker
-
+```
 
 ### Install dependencies
 
@@ -176,6 +176,7 @@ In production, this pipeline can be triggered using:
 **Elizabeth Tom**  
 Master of Computer Science – University of Wollongong  
 Data Engineering & Analytics
+
 
 
 

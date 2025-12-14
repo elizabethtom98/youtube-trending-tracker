@@ -1,10 +1,10 @@
-# 📈 YouTube Trending Tracker
+# YouTube Trending Tracker
 
 An end-to-end **data engineering + analytics** project that ingests YouTube trending video data via API, stores historical snapshots in MongoDB, and visualizes insights through an interactive Streamlit dashboard.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The **YouTube Trending Tracker** collects trending video data from multiple countries, processes and stores it in a database, and surfaces insights such as:
 
@@ -17,7 +17,7 @@ Unlike static CSV dashboards, this simulates a **production-style pipeline**: AP
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 YouTube Data API
 ↓
@@ -29,7 +29,7 @@ Streamlit Dashboard (Analytics UI)
 
 ---
 
-## 🔄 Data Pipeline (ETL)
+##Data Pipeline (ETL)
 
 1. **Extract**
    - Fetch trending videos from the YouTube Data API (`chart=mostPopular`)
@@ -47,7 +47,7 @@ Streamlit Dashboard (Analytics UI)
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 ### Overview KPIs
 - Top video (by views)
@@ -68,7 +68,7 @@ Streamlit Dashboard (Analytics UI)
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Python**
 - **FastAPI** (ETL service)
@@ -81,7 +81,7 @@ Streamlit Dashboard (Analytics UI)
 
 ---
 
-## 🕒 Automation (Scheduler-ready)
+## Automation (Scheduler-ready)
 
 This project includes a scheduler script designed to trigger the ETL job automatically.
 
@@ -92,26 +92,13 @@ In a production setup, it can be scheduled using:
 
 ---
 
-## ▶️ Run Locally
+## Run Locally
 
 ### 1) Clone
 ```bash
-git clone https://github.com/YOUR_USERNAME/youtube-trending-tracker.git
+git clone https://github.com/elizabethtom98/youtube-trending-tracker.git
 cd youtube-trending-tracker
-## ▶️ Run Locally
 
-###** Create & activate virtual environment**
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # macOS / Linux
-```
-
-```bash
-.venv\Scripts\activate      # Windows
-```
-
----
 
 ### Install dependencies
 
@@ -135,7 +122,7 @@ MONGO_DB=yt_tracker
 
 ### Start the FastAPI ETL service
 
-```bash
+```
 uvicorn app.main:app --reload
 ```
 
@@ -189,4 +176,5 @@ In production, this pipeline can be triggered using:
 **Elizabeth Tom**  
 Master of Computer Science – University of Wollongong  
 Data Engineering & Analytics
+
 
